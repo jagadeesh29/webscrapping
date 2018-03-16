@@ -69,4 +69,4 @@ alldata = pd.DataFrame({"title" : title,
 
 newdata = alldata[["title","organisation","experience","location","keyskills","posted_date"]]
 
-newdata.to_csv("naukri_scrapped.csv")
+newdata.to_csv("naukri_scrapped.csv",index = False)
